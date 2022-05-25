@@ -34,80 +34,6 @@ h4 {
     text-decoration: underline;
 }
 
-/* 
-.client {
-    margin-top: 180px;
-}
-
-.case_back-link {
-    padding: 10px;
-    background: black;
-}
-
-.case_body {
-    line-height: 30px;
-}
-
-.case_header {
-    background: black;
-    font-size: 20px;
-    position: sticky;
-    top: 0;
-    padding: 22px;
-}
-
-.case_main {
-    padding: 200px
-}
-
-.a_case-return:hover {
-    color: #00ff00;
-}
-
-.case_h1 {
-    text-align: center;
-    position: relative;
-    bottom: 100px;
-}
-
-.img_postgres {
-    border-radius: 5px;
-    width: 400px;
-    float: right;
-    clear: both;
-}
-
-.img_udoflix1 {
-    border-radius: 5px;
-    width: 400px;
-}
-
-.img_udoflix2 {
-    border-radius: 5px;
-    width: 400px;
-    float: right;
-    clear: both;
-}
-
-.img_postman {
-    border-radius: 5px;
-    width: 400px;
-    float: right;
-    clear: both;
-    margin-top: -50px;
-    margin-bottom: 30px;
-}
-
-.img_mongodb,
-.img_cmd {
-    margin-top: 8px;
-    margin-right: 5px;
-    border-radius: 5px;
-    width: 400px;
-    float: left;
-    clear: both;
-} */
-
 .navigation-list {
     list-style: none;
     text-align: center;
@@ -649,7 +575,7 @@ button[type="submit"]:hover {
 }
 
 .case_headings6 {
-    margin-top: 120px;
+    margin-top: -140px;
 }
 
 .case_headings1 h3 {
@@ -682,6 +608,12 @@ button[type="submit"]:hover {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+}
+
+.img_udoflix2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .img_fig {
