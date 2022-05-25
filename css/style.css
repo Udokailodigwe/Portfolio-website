@@ -27,6 +27,7 @@ h4 {
     text-decoration: underline;
 }
 
+/* 
 .client {
     margin-top: 180px;
 }
@@ -98,7 +99,7 @@ h4 {
     width: 400px;
     float: left;
     clear: both;
-}
+} */
 
 .navigation-list {
     list-style: none;
@@ -109,11 +110,11 @@ h4 {
     padding-top: 5px;
     margin-top: 0;
     background: #fff;
-    font-size: 18px;
-
+    font-size: 25px;
 }
 
 .navigation-list a {
+    font-family: "Copper Black";
     display: block;
     position: relative;
     padding: 0.2em 0;
@@ -207,12 +208,13 @@ h4 {
     width: 280px;
     height: 280px;
     border: solid black;
-    margin-top: -10px;
+    margin-top: -20px;
 }
 
 .dev_exp {
     color: #ea4aea;
     font-family: "Cooper Black";
+    font-size: 20px;
     letter-spacing: 2px;
     word-spacing: 2px;
 }
@@ -226,7 +228,7 @@ h4 {
 }
 
 #article2-index a:hover {
-    border-bottom: solid 0.2em #fff;
+    border-bottom: solid 0.2em #ea4aea;
 }
 
 #about_me h1 {
@@ -240,7 +242,7 @@ h4 {
     letter-spacing: 1px;
     word-spacing: 2px;
     font-family: "Black Copper";
-    font-size: 3vmin;
+    font-size: 17px;
     margin-top: -50px;
 }
 
@@ -261,16 +263,6 @@ h4 {
     border-radius: 20px;
     margin-bottom: 5px;
     margin-right: 10px;
-}
-
-.about_me_skills a {
-    border-bottom: solid 0px #00ff00;
-    transition: border-bottom .2s;
-    color: #00ff00;
-}
-
-.about_me_skills a:hover {
-    border-bottom: solid 0.2em #00ff00;
 }
 
 #article2-index {
@@ -471,12 +463,10 @@ text {
 }
 
 .img_logo img {
-    margin: 30px;
-
     height: 20px;
     margin-top: 120px;
     margin-bottom: -80px;
-
+    margin-left: 25px;
 }
 
 #topButton img {
@@ -667,6 +657,12 @@ button[type="submit"]:hover {
 
     .contact_article {
         text-align: center;
+    }
+
+    .img_logo img {
+        position: relative;
+        left: 90px;
+        margin-bottom: 2px;
     }
 }
 
