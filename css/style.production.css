@@ -292,8 +292,8 @@ h4 {
     display: -ms-grid;
     display: grid;
     grid-gap: 25px;
-    -ms-grid-columns: 1fr 25px 1fr 25px 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-columns: 1fr 25px 1fr;
+    grid-template-columns: 1fr 1fr;
     padding-left: 0;
     padding-right: 0;
 }
@@ -305,8 +305,8 @@ h4 {
 
 
 .project-list img {
-    width: 345px;
-    height: 270px;
+    width: 550px;
+    height: 320px;
     border-radius: 20px;
 }
 
