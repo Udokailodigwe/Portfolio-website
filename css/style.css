@@ -258,9 +258,10 @@ h4 {
 .project-list {
     display: grid;
     grid-gap: 25px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     padding-left: 0;
     padding-right: 0;
+    place-items: center;
 }
 
 .project-list p {
@@ -582,7 +583,7 @@ button[type="submit"]:hover {
     }
 }
 
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 630px) and (max-width:890px) {
     .contact_address_form {
         flex-direction: column;
     }
@@ -598,15 +599,25 @@ button[type="submit"]:hover {
     }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width: 1216px) {
     .project-list {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1215px) {
     .project-list {
         grid-template-columns: 1fr;
+    }
+
+    img.project_image,
+    .break {
+        width: 650px;
+        margin-left: -20px;
+    }
+
+    .break {
+        width: 650px;
     }
 
     #home {
@@ -643,5 +654,32 @@ button[type="submit"]:hover {
 
     .img_case {
         width: 200px;
+    }
+}
+
+@media only screen and (max-width:690px) {
+
+    img.project_image,
+    .break {
+        width: 380px;
+        margin-left: -10px;
+    }
+}
+
+/* @media only screen and (max-width:700px) {
+
+    img.project_image,
+    .break {
+        width: 500px;
+        margin-left: -10px;
+    }
+} */
+
+@media only screen and (max-width:395px) {
+
+    img.project_image,
+    .break {
+        width: 360px;
+        margin-left: -20px;
     }
 }
