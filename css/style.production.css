@@ -753,20 +753,40 @@ button[type="submit"]:hover {
     }
 }
 
-/* @media only screen and (max-width:700px) {
-
-    img.project_image,
-    .break {
-        width: 500px;
-        margin-left: -10px;
-    }
-} */
-
 @media only screen and (max-width:395px) {
 
     img.project_image,
     .break {
-        width: 360px;
-        margin-left: -20px;
+        width: 345px;
+    }
+
+    .image_about {
+        margin-right: 0px;
+        width: 320px;
+    }
+}
+
+@media only screen and (max-width:376px) {
+
+    img.project_image,
+    .break {
+        width: 280px;
+    }
+
+    .image_about {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width:280px) {
+
+    img.project_image,
+    .break {
+        width: 250px;
+    }
+
+    .image_about {
+        margin-right: 20px;
+        width: 250px;
     }
 }
